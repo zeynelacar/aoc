@@ -10,7 +10,7 @@ public class day1 {
         long elfCalories = 0L;
         int elfNumber = 0;
 
-        File file = new File("/Users/zacar/Downloads/input.txt");
+        File file = new File("input.txt");
         Scanner scan = new Scanner(file);
         String st = null;
         while (scan.hasNextLine()) {
